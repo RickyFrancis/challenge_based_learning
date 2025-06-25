@@ -1,5 +1,7 @@
 # 🐱 Backend Challenge: PurrfectMatch - European Cat Adoption Platform
 
+## Assigned to G M Ansarul Kabir Sohan
+
 ## 🎯 Project Overview
 
 You're building the backend for **PurrfectMatch**, a platform that connects cat lovers across the European Union. This platform facilitates cat adoption and community building while handling basic EU-specific regulations.
