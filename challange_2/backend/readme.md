@@ -1,15 +1,15 @@
-# 🍸 Backend Challenge: DrinkTaster - The Social Catalog for Drinks & Spirits
+# �� Backend Challenge: Spirited - The Social Catalog for Drinks & Spirits
 
 ## Assigned to Ricky Francis Rozario
 
 ## 🎯 Project Overview
 
-You're building the backend for **DrinkTaster**, a community-driven platform for hobbyist bartenders and drink enthusiasts. Like Fragrantica for perfumes, DrinkTaster is a place to discover, catalog, review, and share experiences with cocktails, spirits, liqueurs, and ingredients. Users can rate drinks, write tasting notes, build personal collections, and connect with others who share their taste.
+You're building the backend for **Spirited**, a community-driven platform for hobbyist bartenders and drink enthusiasts. Like Fragrantica for perfumes, Spirited is a place to discover, catalog, review, and share experiences with cocktails, spirits, liqueurs, and ingredients. Users can rate drinks, write tasting notes, build personal collections, and connect with others who share their taste.
 
 ## 🏗️ Architecture & Tech Stack
 
 - **Runtime**: Node.js 18+ with TypeScript
-- **Framework**: Hono.js
+- **Framework**: Koa.js
 - **API**: RESTful API with comprehensive Postman documentation
 - **Database**: PostgreSQL with Prisma ORM
 - **Authentication**: JWT with refresh tokens
@@ -25,7 +25,7 @@ You're building the backend for **DrinkTaster**, a community-driven platform for
 
 Your application must be containerized with these core services:
 
-1. **API Service**: Hono.js application container
+1. **API Service**: Koa.js application container
 2. **Database**: PostgreSQL container
 3. **Cache**: Redis container
 4. **Analytics Service**: Container for trending and stats (Week 2)
@@ -71,7 +71,7 @@ Your application must be containerized with these core services:
 
 ### Week 1: Foundation & Core Features
 
-- [ ] Initialize Hono.js project with TypeScript
+- [ ] Initialize Koa.js project with TypeScript
 - [ ] Set up PostgreSQL with Prisma ORM
 - [ ] Configure Redis for caching and sessions
 - [ ] Implement authentication and user profiles
@@ -178,8 +178,8 @@ project/
 │   ├── postgres/
 │   └── redis/
 ├── postman/
-│   ├── DrinkTaster_API.postman_collection.json
-│   └── DrinkTaster_Environment.postman_environment.json
+│   ├── Spirited_API.postman_collection.json
+│   └── Spirited_Environment.postman_environment.json
 └── scripts/
     ├── docker-build.sh
     ├── docker-deploy.sh
